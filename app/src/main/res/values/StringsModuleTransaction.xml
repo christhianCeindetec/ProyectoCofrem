@@ -6,7 +6,16 @@
     <!-- Textos usados en la Transaction Screen -->
 
     <string name="transaction_text_button_credito">Compra de productos</string>
+
     <string name="transaction_text_button_saldo">Consulta de Saldo</string>
-    <string name="transaction_text_button_anulacion">Anulación de compra</string>
+
+    <string name="transaction_text_button_anulacion">Anulación de transacción</string>
+
+    <!-- Textos usados en el modulo de Anulacion de transaccion -->
+
+    <string name="transaction_text_title_anulacion">Anulación de transacción</string>
+
+    <string name="transaction_text_clave_dispositivo">Clave del dispositivo:</string>
+
 
 </resources>
