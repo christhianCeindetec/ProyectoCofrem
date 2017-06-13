@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColorWhite"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/appPaddingBottom"
+    android:paddingLeft="@dimen/appPaddingLeft"
+    android:paddingRight="@dimen/appPaddingRight"
+    android:paddingTop="@dimen/appPaddingTop"
+    tools:context=".ReportScreenActivity">
+
+    <!--Header de los modulos-->
+    <include
+        android:id="@+id/headerContent"
+        layout="@layout/content_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/appMarginBottom" />
+
+    <Button
+        android:id="@+id/btnReportScreenModuleReimpresion"
+        style="@style/StyleButtonStandar"
+        android:layout_below="@id/headerContent"
+        android:text="@string/report_text_button_reimpresion" />
+
+    <Button
+        android:id="@+id/btnReportScreenModuleDetalle"
+        style="@style/StyleButtonStandar"
+        android:layout_below="@id/btnReportScreenModuleReimpresion"
+        android:text="@string/report_text_button_detalle" />
+
+    <Button
+        android:id="@+id/btnReportScreenModuleGeneral"
+        style="@style/StyleButtonStandar"
+        android:layout_below="@id/btnReportScreenModuleDetalle"
+        android:text="@string/report_text_button_general" />
+
+    <Button
+        android:id="@+id/btnReportScreenModuleCierreLote"
+        style="@style/StyleButtonStandar"
+        android:layout_below="@id/btnReportScreenModuleGeneral"
+        android:text="@string/report_text_button_cierre" />
+
+    <Button
+        android:id="@+id/btnReportScreenBack"
+        style="@style/StyleButtonBack"
+        android:layout_below="@id/btnReportScreenModuleCierreLote"
+        android:text="@string/general_text_button_back" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Configuración textos de la interfaz de la aplicacion -->
+
+    <!-- Textos usados en la Report Screen -->
+
+    <string name="report_text_button_reimpresion">Reimpresión Recibo</string>
+    <string name="report_text_button_detalle">Reporte Detalle</string>
+    <string name="report_text_button_general">Reporte General</string>
+    <string name="report_text_button_cierre">Cierre de Lote</string>
+
+</resources>

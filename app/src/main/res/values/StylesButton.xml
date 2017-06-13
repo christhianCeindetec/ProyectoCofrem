@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Estilos de los botones usados en la aplicacion-->
+
+    <style name="StyleButtonStandar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/appBtnSizeHeightSm</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/appTxtSizeSm</item>
+        <item name="android:textColor">@color/appColorWhite</item>
+        <item name="android:background">@color/appColorPrimary</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/appMarginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/appMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/appMarginRight</item>
+    </style>
+
+    <style name="StyleButtonBack" parent="StyleButtonStandar">
+        <item name="android:background">@color/appColorClose</item>
+    </style>
+</resources>

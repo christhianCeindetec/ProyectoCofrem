@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColorWhite"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/appPaddingBottom"
+    android:paddingLeft="@dimen/appPaddingLeft"
+    android:paddingRight="@dimen/appPaddingRight"
+    android:paddingTop="@dimen/appPaddingTop"
+    tools:context=".ConfigurationScreenActivity">
+
+    <!--Header de los modulos-->
+    <include
+        android:id="@+id/headerContent"
+        layout="@layout/content_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/appMarginBottom" />
+
+    <Button
+        android:id="@+id/btnConfigurationScreenModuleConfiguracion"
+        style="@style/StyleButtonStandar"
+        android:layout_below="@id/headerContent"
+        android:text="@string/configuration_text_button_configuracion" />
+
+    <Button
+        android:id="@+id/btnConfigurationScreenModulePrueba"
+        style="@style/StyleButtonStandar"
+        android:layout_below="@id/btnConfigurationScreenModuleConfiguracion"
+        android:text="@string/configuration_text_button_prueba" />
+
+    <Button
+        android:id="@+id/btnConfigurationScreenBack"
+        style="@style/StyleButtonBack"
+        android:layout_below="@id/btnConfigurationScreenModulePrueba"
+        android:text="@string/general_text_button_back" />
+
+</RelativeLayout>

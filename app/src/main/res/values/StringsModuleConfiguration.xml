@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Configuración textos de la interfaz de la aplicacion -->
+
+    <!-- Textos usados en la Configuration Screen -->
+
+    <string name="configuration_text_button_configuracion">Configuración</string>
+    <string name="configuration_text_button_prueba">Prueba Comunicación</string>
+
+</resources>

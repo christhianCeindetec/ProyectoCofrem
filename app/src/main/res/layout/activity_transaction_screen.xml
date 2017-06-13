@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColorWhite"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/appPaddingBottom"
+    android:paddingLeft="@dimen/appPaddingLeft"
+    android:paddingRight="@dimen/appPaddingRight"
+    android:paddingTop="@dimen/appPaddingTop"
+    tools:context=".TransactionScreenActivity">
+
+    <!--Header de los modulos-->
+    <include
+        android:id="@+id/headerContent"
+        layout="@layout/content_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/appMarginBottom" />
+
+    <Button
+        android:id="@+id/btnTransactionScreenModuleCredito"
+        style="@style/StyleButtonStandar"
+        android:layout_below="@id/headerContent"
+        android:text="@string/transaction_text_button_credito" />
+
+    <Button
+        android:id="@+id/btnTransactionScreenModuleSaldo"
+        style="@style/StyleButtonStandar"
+        android:layout_below="@id/btnTransactionScreenModuleCredito"
+        android:text="@string/transaction_text_button_saldo" />
+
+    <Button
+        android:id="@+id/btnTransactionScreenModuleAnulacion"
+        style="@style/StyleButtonStandar"
+        android:layout_below="@id/btnTransactionScreenModuleSaldo"
+        android:text="@string/transaction_text_button_anulacion" />
+
+    <Button
+        android:id="@+id/btnTransactionScreenBack"
+        style="@style/StyleButtonBack"
+        android:layout_below="@id/btnTransactionScreenModuleAnulacion"
+        android:text="@string/general_text_button_back" />
+</RelativeLayout>

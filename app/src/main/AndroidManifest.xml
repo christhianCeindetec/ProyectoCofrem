@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cofrem.transacciones">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-sdk
+        android:minSdkVersion="$rootProject.ext.compileSdkVersion"
+        android:targetSdkVersion="$rootProject.ext.targetSdkVersion" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--Splash Screen-->
+        <activity
+            android:name=".SplashScreen.ui.SplashScreenActivity_"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--Main Screen-->
+        <activity
+            android:name=".MainScreenActivity_"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <!--Transaction Screen-->
+        <activity
+            android:name=".TransactionScreenActivity_"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <!--Transaction Screen / Module Credito-->
+        <activity
+            android:name=".Modules.ModuleTransaction.CreditoScreenActivity.ui.CreditoScreenActivity_"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <!--Transaction Screen / Module Saldo-->
+        <activity
+            android:name=".Modules.ModuleTransaction.SaldoScreenActivity.ui.SaldoScreenActivity_"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <!--Transaction Screen / Module Anulacion-->
+        <activity
+            android:name=".Modules.ModuleTransaction.AnulacionScreenActivity.ui.AnulacionScreenActivity_"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <!--Report Screen-->
+        <activity
+            android:name=".ReportScreenActivity_"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <!--Configuration Screen-->
+        <activity
+            android:name=".ConfigurationScreenActivity_"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+
+    </application>
+
+</manifest>

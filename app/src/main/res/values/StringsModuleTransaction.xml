@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Configuración textos de la interfaz de la aplicacion -->
+
+    <!-- Textos usados en la Transaction Screen -->
+
+    <string name="transaction_text_button_credito">Compra de productos</string>
+    <string name="transaction_text_button_saldo">Consulta de Saldo</string>
+    <string name="transaction_text_button_anulacion">Anulación de compra</string>
+
+</resources>

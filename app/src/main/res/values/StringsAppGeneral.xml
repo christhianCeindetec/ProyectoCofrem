@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+     Convenciones:
+      Los nombre estan formados de la siguiente manera:
+      <modulo>_<tipo>_<accion o control>_<nombre>
+
+      - Modulo: modulo en el cual se encuentra el texto
+      - Tipo: tipo del texto.
+      Los tipos de texto son:
+        title: usado en titulos
+        text: usados en labels
+        message: usados en mensajes emergentes, ventanas de confirmacion o cuadros de logs
+      - Accion o Control: usado para describir donde se encuentra el texto o la accion que se ejecuto en caso de los message
+      Las acciones pueden ser:
+        press: cuando el control es presionado
+      Los controles pueden ser:
+        button: Botones
+      - Nombre: nombre con el que se diferencia el texto dentro de una misma vista
+    -->
+
+    <!-- Configuración textos de la interfaz de la aplicacion -->
+
+    <string name="app_name">Cofrem Transacciones</string>
+
+    <!-- Textos usados en la Splash Screen -->
+
+    <string name="splash_title_bienvenida">Bienvenido</string>
+    <string name="splash_message_error">Error: %s</string>
+    <string name="splash_message_loading">Cargando… Por favor espere un momento…</string>
+
+    <!-- Textos usados en la Main Screen -->
+
+    <string name="main_text_button_transaction">Modulo de Transacciones</string>
+    <string name="main_text_button_reports">Modulo de Reportes</string>
+    <string name="main_text_button_configuration">Modulo de Configuraciones</string>
+
+    <!-- Textos usados recurrentemente en toda la App -->
+
+    <string name="general_text_button_back">Regresar</string>
+    <string name="general_message_press_back">Sí deseas volver a la vista anterior, debes presionar el boton</string>
+
+    <string name="general_message_verify_success">Verificación exitosa</string>
+    <string name="general_message_verify_error">Verificación fallida</string>
+
+    <string name="general_message_internet_info">Conexión a internet establecida…</string>
+    <string name="general_message_internet_error">Conexión a internet NO establecida, por  favor verifique y reinice la App.</string>
+
+    <string name="general_message_nfc_device_info">Conexión al dispositivo NFC establecida…</string>
+    <string name="general_message_nfc_device_error">Conexión al dispositivo NFC NO establecida, por  favor verifique y reinice la App.</string>
+
+    <string name="general_message_magnetic_device_info">Conexión al dispositivo lector de banda magnetica establecida…</string>
+    <string name="general_message_magnetic_device_error">Conexión al dispositivo lector de banda magnetica NO establecida, por  favor verifique y reinice la App.</string>
+
+    <string name="general_message_printer_device_info">Conexión al dispositivo de impresión establecida…</string>
+    <string name="general_message_printer_device_error">Conexión al dispositivo de impresion NO establecida, por  favor verifique y reinice la App.</string>
+
+</resources>
