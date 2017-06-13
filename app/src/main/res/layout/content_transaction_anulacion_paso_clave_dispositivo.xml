@@ -5,9 +5,32 @@
     android:orientation="vertical">
 
     <TextView
-        style="@style/StyleTextPrimaryMedium"
-        android:layout_width="match_parent"
+        android:id="@+id/txvAnulacionTransactionClaveDispositivoTitle"
+        style="@style/StyleTextPrimaryLarge"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="@string/configuration_text_button_configuracion" />
+        android:layout_marginBottom="@dimen/appMarginBottom"
+        android:text="@string/transaction_text_title_anulacion" />
+
+    <TextView
+        android:id="@+id/txvAnulacionTransactionClaveDispositivoClave"
+        style="@style/StyleTextPrimaryMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txvAnulacionTransactionClaveDispositivoTitle"
+        android:layout_marginBottom="@dimen/appMarginBottom"
+        android:text="@string/transaction_text_clave_dispositivo" />
+
+    <EditText
+        android:id="@+id/edtAnulacionTransactionClaveDispositivoContenidoClave"
+        style="@style/StylePassPrimaryMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txvAnulacionTransactionClaveDispositivoClave"
+        android:layout_marginBottom="@dimen/appMarginBottom"
+        android:inputType="textPassword"
+        android:text="" />
+
+
 </RelativeLayout>
