@@ -15,7 +15,15 @@
 
     <string name="transaction_text_title_anulacion">Anulación de transacción</string>
 
-    <string name="transaction_text_clave_dispositivo">Clave del dispositivo:</string>
+    <string name="transaction_text_exitosa">Transacción exitosa</string>
+
+    <string name="transaction_text_numero_cargo">Número de cargo:</string>
+
+    <string name="transaction_text_verifacion_datos_transaccion">Verifique datos de transacción</string>
+
+    <string name="transaction_text_verifacion_valor_transaccion">Valor de transacción:</string>
+
+    <string name="transaction_text_verifacion_numero_Cargo">Número de cargo:</string>
 
 
 </resources>

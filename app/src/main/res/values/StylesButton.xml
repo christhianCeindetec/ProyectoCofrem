@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--Estilos de los botones usados en la aplicacion-->
+    <!-- Estilos de los botones usados en la aplicacion -->
 
     <style name="StyleButtonStandar">
         <item name="android:layout_width">match_parent</item>
@@ -19,4 +19,31 @@
     <style name="StyleButtonBack" parent="StyleButtonStandar">
         <item name="android:background">@color/appColorClose</item>
     </style>
+
+    <style name="StyleButtonExit" parent="StyleButtonStandar">
+        <item name="android:background">@color/appColorClose</item>
+    </style>
+
+    <style name="StyleButtonPrint" parent="StyleButtonStandar">
+        <item name="android:background">@color/appColorAccent</item>
+    </style>
+
+    <!-- Estilos de los botones usados en la aplicacion -->
+
+    <style name="StyleButtonAccept">
+        <item name="android:layout_width">@dimen/appBtnSizeTextLg</item>
+        <item name="android:layout_height">@dimen/appBtnSizeHeightSm</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/appTxtSizeSm</item>
+        <item name="android:textColor">@color/appColorWhite</item>
+        <item name="android:background">@color/appColorPrimary</item>
+        <item name="android:layout_marginBottom">@dimen/appMarginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/appMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/appMarginRight</item>
+    </style>
+
+    <style name="StyleButtonCancel" parent="StyleButtonAccept">
+        <item name="android:background">@color/appColorClose</item>
+    </style>
+
 </resources>

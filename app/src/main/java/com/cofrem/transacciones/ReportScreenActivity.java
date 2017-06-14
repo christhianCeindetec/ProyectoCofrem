@@ -38,7 +38,7 @@ public class ReportScreenActivity extends Activity {
      */
     @Override
     public void onBackPressed() {
-        String mensajeRegresar = getString(R.string.general_message_press_back) + getString(R.string.general_text_button_back);
+        String mensajeRegresar = getString(R.string.general_message_press_back) + getString(R.string.general_text_button_regresar);
         Toast.makeText(this, mensajeRegresar, Toast.LENGTH_SHORT).show();
     }
 
