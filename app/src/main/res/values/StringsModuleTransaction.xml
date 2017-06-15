@@ -3,7 +3,7 @@
 
     <!-- Configuración textos de la interfaz de la aplicacion -->
 
-    <!-- Textos usados en la Transaction Screen -->
+    <!-- Textos de botones -->
 
     <string name="transaction_text_button_credito">Compra de productos</string>
 
@@ -11,19 +11,34 @@
 
     <string name="transaction_text_button_anulacion">Anulación de transacción</string>
 
-    <!-- Textos usados en el modulo de Anulacion de transaccion -->
+    <!-- Titulos de vistas -->
+
+    <string name="transaction_text_title_credito">Compra de productos</string>
+
+    <string name="transaction_text_title_saldo">Consulta de Saldo</string>
 
     <string name="transaction_text_title_anulacion">Anulación de transacción</string>
 
+    <!-- Subtitulos de vistas -->
+
+    <string name="transaction_text_subtitle_verificacion_datos">Verifique datos de transacción:</string>
+
+    <!-- Textos adicionales -->
+
     <string name="transaction_text_exitosa">Transacción exitosa</string>
 
-    <string name="transaction_text_numero_cargo">Número de cargo:</string>
+    <string name="transaction_text_saldo">Saldo disponible</string>
 
-    <string name="transaction_text_verifacion_datos_transaccion">Verifique datos de transacción</string>
+    <string name="transaction_text_valor_transaccion">Ingrese el valor de transacción:</string>
 
-    <string name="transaction_text_verifacion_valor_transaccion">Valor de transacción:</string>
+    <string name="transaction_text_verifacion_valor_transaccion">Verifique el valor de transacción:</string>
 
-    <string name="transaction_text_verifacion_numero_Cargo">Número de cargo:</string>
+    <string name="transaction_text_numero_cargo">Ingrese el número de cargo:</string>
 
+    <string name="transaction_text_verifacion_numero_Cargo">Verifique el número de cargo:</string>
+
+    <string name="transaction_text_numero_documento">Ingrese número de documento:</string>
+
+    <string name="transaction_text_verifique_numero_documento">Verifique el número de documento:</string>
 
 </resources>

@@ -5,35 +5,35 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/txvAnulacionTransactionExitosaTitle"
+        android:id="@+id/txvCreditoTransactionExitosaTitle"
         style="@style/StyleTextPrimaryLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/appMarginBottom"
-        android:text="@string/transaction_text_title_anulacion" />
+        android:text="@string/transaction_text_title_credito" />
 
     <TextView
-        android:id="@+id/txvAnulacionTransactionExitosaSubtitle"
+        android:id="@+id/txvCreditoTransactionExitosaSubtitle"
         style="@style/StyleTextPrimaryMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txvAnulacionTransactionExitosaTitle"
+        android:layout_below="@id/txvCreditoTransactionExitosaTitle"
         android:layout_marginBottom="@dimen/appMarginBottom"
         android:text="@string/transaction_text_exitosa" />
 
     <Button
-        android:id="@+id/btnAnulacionTransactionExitosaBotonImprimir"
+        android:id="@+id/btnCreditoTransactionExitosaBotonImprimir"
         style="@style/StyleButtonPrint"
         android:layout_alignParentStart="true"
-        android:layout_below="@id/txvAnulacionTransactionExitosaSubtitle"
+        android:layout_below="@id/txvCreditoTransactionExitosaSubtitle"
         android:text="@string/general_text_button_imprimir" />
 
     <Button
-        android:id="@+id/btnAnulacionTransactionExitosaBotonSalir"
+        android:id="@+id/btnCreditoTransactionExitosaBotonSalir"
         style="@style/StyleButtonExit"
         android:layout_alignParentEnd="true"
-        android:layout_below="@id/btnAnulacionTransactionExitosaBotonImprimir"
+        android:layout_below="@id/btnCreditoTransactionExitosaBotonImprimir"
         android:text="@string/general_text_button_salir" />
 
 
