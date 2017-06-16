@@ -2,17 +2,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cofrem.transacciones">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.NFC" />
-
     <uses-sdk
         android:minSdkVersion="$rootProject.ext.compileSdkVersion"
         android:targetSdkVersion="$rootProject.ext.targetSdkVersion" />
 
     <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="true" />
+
+    <uses-feature
         android:name="android.hardware.nfc"
         android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"

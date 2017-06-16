@@ -59,6 +59,19 @@ dependencies {
 
     //Uso de los testcompile
     compile "com.android.support.constraint:constraint-layout:$rootProject.ext.JunitVersion"
+
+    //Libreria para el manejo de comunicacion con el WS SOAP
+    compile files("libs/ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar")
+
+    //Libreria para el manejo de la impresora termica del dispositivo
+    compile files("libs/telpo_api.jar")
+
+    //Librerias para otras cosas que ni puta idea
+    compile files("libs/acssmc-1.1.1.jar")
+    compile files("libs/core-3.1.0.jar")
+    compile files("libs/sdtapi.jar")
+    compile files("libs/SmartCardLib.jar")
+
 }
 
 apt {
