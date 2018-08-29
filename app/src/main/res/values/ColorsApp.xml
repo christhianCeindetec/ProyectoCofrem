@@ -19,6 +19,7 @@
     <color name="appColorGraySecondary">#7F7F7F</color>
     <color name="appColorGrayTerciary">#E5E5E5</color>
     <color name="appColorWhite">#FFFFFF</color>
+    <color name="appColorTransparent">#00000000</color>
 
     <!--Colores usados en los textos-->
     <color name="appColorPrimaryText">@color/appColorBlack</color>

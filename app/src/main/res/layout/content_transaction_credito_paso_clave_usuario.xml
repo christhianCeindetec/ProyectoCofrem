@@ -5,44 +5,44 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/txvAnulacionTransactionNumeroCargoTitle"
+        android:id="@+id/txvCreditoTransactionClaveUsuarioTitle"
         style="@style/StyleTextPrimaryLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/appMarginBottom"
-        android:text="@string/transaction_text_title_anulacion" />
+        android:text="@string/transaction_text_title_credito" />
 
     <TextView
-        android:id="@+id/txvAnulacionTransactionNumeroCargoNumCargo"
+        android:id="@+id/txvCreditoTransactionClaveUsuarioClave"
         style="@style/StyleTextPrimaryMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txvAnulacionTransactionNumeroCargoTitle"
+        android:layout_below="@id/txvCreditoTransactionClaveUsuarioTitle"
         android:layout_marginBottom="@dimen/appMarginBottom"
-        android:text="@string/transaction_text_numero_cargo" />
+        android:text="@string/general_text_clave_usuario" />
 
     <EditText
-        android:id="@+id/edtAnulacionTransactionNumeroCargoContenidoClave"
-        style="@style/StyleValuePrimary"
+        android:id="@+id/edtCreditoTransactionClaveUsuarioContenidoClave"
+        style="@style/StylePassPrimary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txvAnulacionTransactionNumeroCargoNumCargo"
+        android:layout_below="@id/txvCreditoTransactionClaveUsuarioClave"
         android:layout_marginBottom="@dimen/appMarginBottom"
-        android:inputType="number" />
+        android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/btnAnulacionTransactionNumeroCargoBotonCancelar"
+        android:id="@+id/btnCreditoTransactionClaveUsuarioBotonCancelar"
         style="@style/StyleButtonCancel"
         android:layout_alignParentStart="true"
-        android:layout_below="@id/edtAnulacionTransactionNumeroCargoContenidoClave"
+        android:layout_below="@id/edtCreditoTransactionClaveUsuarioContenidoClave"
         android:text="@string/general_text_button_cancelar" />
 
     <Button
-        android:id="@+id/btnAnulacionTransactionNumeroCargoBotonAceptar"
+        android:id="@+id/btnCreditoTransactionClaveUsuarioBotonAceptar"
         style="@style/StyleButtonAccept"
         android:layout_alignParentEnd="true"
-        android:layout_below="@id/edtAnulacionTransactionNumeroCargoContenidoClave"
+        android:layout_below="@id/edtCreditoTransactionClaveUsuarioContenidoClave"
         android:text="@string/general_text_button_aceptar" />
 
 

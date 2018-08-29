@@ -36,6 +36,6 @@
         android:id="@+id/btnConfigurationScreenBack"
         style="@style/StyleButtonBack"
         android:layout_below="@id/btnConfigurationScreenModulePrueba"
-        android:text="@string/general_text_button_back" />
+        android:text="@string/general_text_button_regresar" />
 
 </RelativeLayout>
